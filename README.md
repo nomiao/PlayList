@@ -20,3 +20,15 @@ PS
 스팀
 
 <img width="1027" height="1532" alt="스팀" src="https://github.com/user-attachments/assets/86b9b2d4-23a1-44f1-b693-212163260539" />
+
+옥토패스 트래블러2 버그
+
+![KakaoTalk_20260111_235118779](https://github.com/user-attachments/assets/2a6f9158-b07a-48a0-ad39-c53860bc947d)
+발생 조건
+- 퀘스트 수락 후 특정 지역으로 이동 시 이벤트 트리거가 존재함
+- 정상 경로(정면 입구)가 아닌,
+  측면 수로를 통해 보트 탑승 상태로 해당 지역에 진입할 경우
+- 이벤트 트리거가 정상적으로 실행되지만
+  보트 오브젝트 및 탑승 상태가 초기화되지 않은 채 이벤트가 진행됨
+
+
